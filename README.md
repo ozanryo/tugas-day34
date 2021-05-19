@@ -11,6 +11,6 @@
 ### Pembagian Tugas
 |Nama|Main Page|Individu|
 |----|---------|--------|
-|Atina|||
-|Ozan|||
-|Dwi|||
+|Atina|Footer||
+|Ozan|Header||
+|Dwi|Body||
