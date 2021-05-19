@@ -5,3 +5,10 @@
 3. Masing masing halaman dikerjakan oleh orang berbeda dan di branch berbeda
 4. Memiliki satu branch yang mengakomodir semua halamannya
 =====================================================================================
+
+Pekerjaan ==>
+|Nama|Main Page|Individu|
+|----|---------|--------|
+|Atina|||
+|Ozan|||
+|Dwi|||
