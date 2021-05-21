@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="container">
+
+        <div class="header-left">
+          <img class="logo" src="data:image/png;base64,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">
+        </div>
+
+        <div class="header-right">
+          <ul>
+            <li><a class="header-right-home" href="website.html">Home</a></li>
+            <li><a class="header-right-about" href="about.html">About</a></li>
+            <li><a class="header-right-masuk" href="#">Masuk</a></li>
+            <li><a class="header-right-registrasi" href="#">Registrasi</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </header>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>Welcome to P.I.N.K</h1>
+        <p>
+			<ul>
+				<li>Situs/Website auto followers Instagram dan likes Instagram gratis terbesar di Indonesia dengan pengguna aktif tiap detiknya.</li>
+				<li>Nikmati layanan penambah followers dan likes gratis tanpa spam.</li>
+				<li>Jumlah Pengguna Orang</li>
+			</ul>
+		    </p>
+
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Masuk dan Nikmati Layanan Kami</a>
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+    <div class="lesson-wrapper">
+
+      <div class="container">
+      
+        <div class="heading">
+          <h2>Mengapa Harus Kami ?</h2>
+        </div>
+      
+        <div class="lessons">
+      
+          <div class="lesson">
+      
+            <div class="lesson-icon">
+                <img src="https://i.pinimg.com/236x/9b/a0/a4/9ba0a4dec4267aa3dd86406c4e607998.jpg">
+                <p>Keamanan</p>
+            </div>
+      
+            <p class="txt-contents">
+				        Bicara mengenai keamanan, kami tidak pernah menyimpan/mengetahui kata sandi anda. <br> Alasan kenapa kami memerlukan password anda pada saat masuk adalah agar data anda dapat terhubung ke API Instagram untuk dapat bertukar follow dan like. Mengapa kami tidak menyimpan password? karena kami tahu, bahwa Privasi adalah hal yang sangat penting bagi kita semua. Kami hanya ingin menjaga kepercayaan pengguna terhadap auto followers dan likes ini.
+		      	</p>
+
+          </div>
+
+          <div class="lesson">
+
+            <div class="lesson-icon">
+                <img src="https://i.pinimg.com/236x/b4/f4/99/b4f4994038578062a081cccd976ecd02.jpg">
+                
+                <p>Tampilan</p>
+            </div>
+
+            <p class="txt-contents">
+				        Untuk urusan tampilan, <br> jangan diragukan lagi karena situs kami sangat responsive dan cocok dibuka baik melalui Smartphone, Tablet, Atau PC anda. Situs kami juga BEBAS dari iklan,<br> karena kami tahu bahwa iklan sangat mengganggu anda saat mengakses situs ini. Terlebih lagi jika anda menggunakan Smartphone/Tablet.
+            </p>
+
+          </div>
+
+          <div class="lesson">
+
+            <div class="lesson-icon">
+              <img src="https://i.pinimg.com/236x/f2/af/18/f2af18e4f3b3810ec8cdfef43a341a93.jpg">
+              <p>Followers & Like</p>
+            </div>
+
+            <p class="txt-contents">
+				        Kita semua tahu bahwa semakin banyak followers/likes yang kita punya dapat meningkatkan popularitas, <br> merk, dan juga status anda. Hal ini tentunya akan <br> sangat bermanfaat bagi anda yang berjualan online agar produk anda tidak kalah saing dengan produk dari toko online <br> di instagram lainnya. Situs kami juga menggunakan sistem poin untuk bertukar like/follow yang setiap harinya di reset.			
+            </p>
+
+          </div>
+
+          <div class="lesson">
+          
+            <div class="lesson-icon">
+              <img src="https://i.pinimg.com/236x/fc/9d/a9/fc9da9453bb7a3da4959d4d45a6472f6.jpg">
+              <p>Harga Terjangkau</p>
+            </div>
+
+          
+            <p class="txt-contents">Harga terjangkau untuk semua kalangan pelajar maupun professional</p>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+    <div class="message-wrapper">
+
+      <div class="container">
+
+        <div class="fact">
+
+          <p>Taukah Anda ?</p>
+
+        </div>
+        
+
+        <div class='box'>
+          <p>
+            <h3>Fakta Instagram</h3>
+            <ul>
+              <li>Instagram didirikan oleh dua pemuda lulusan Stanford University. Mereka adalah Kevin Systrom dan Mike Krieger.</li>
+              <li>Karyawan Instagram hanya berjumlah 13 orang. Wah dikit banget ya!</li>
+              <li>Instagram diluncurkan di Apple Store pada tanggal 6 Oktober 2010. Lalu, pada 3 April 2012, Instagram diluncurkan di PlayStore.</li>
+              <li>Instagram dinobatkan sebagai App of the Year 2011 di Apple iTunes.</li>
+              <li>Sejak diluncurkan hingga Desember 2011, pengguna Instagram berjumlah 15 juta orang. Foto yang diunggah juga udah mencapai angka 400 juta buah pada akhir tahun 2011.</li>
+              <li>Saat ini, pengguna Instagram mencapai 150 juta orang dan 75 persennya aktif setiap hari.</li>
+              <li>April 2012, Instagram diakuisisi oleh Facebook dengan harga sekitar 121 triliun rupiah.</li>
+              <li>Negara dengan pengguna Instagram terbanyak adalah Amerika Serikat, Jepang, dan Brazil.</li>
+              <li>New York adalah kota yang paling banyak ditandai di Instagram, dengan Times Square adalah tempat yang paling banyak ditandai. Dua tempat lainnya adalah Disneyland California dan Siam Paragon Shopping Mall.</li>
+              <li>
+                Dalam 1 detik, terdapat 8.500 likes dan 1.000 komentar di Instagram. Berarti dalam satu hari, ada 1,2 milyar likes di Instagram.</li>
+            </ul>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+    <footer>
+    
+      <div class="container">
+        <p>
+          Copyright © 2014-2020 WWW.GOGRAM.CO.ID
+        </p>
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>
