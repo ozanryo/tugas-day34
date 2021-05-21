@@ -107,3 +107,71 @@ a {
 		list-style-type: none;
 		padding: 10px;
 	}
+
+.registration-wrapper {
+    margin-top: 80px;
+    height: 1200px;
+    padding: 80px;
+    background-color: #f4ffce;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.first-image {
+  background-image: url("http://www.southeastern.edu/news_media/news_releases/2016/april/images/slu_bigevent.jpg");
+}
+
+.registration-form {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 80px;
+}
+
+.registration-form input{
+    border-width: 1px;
+    border-radius: 100px;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(211, 142, 185);
+    
+}
+
+.registration-form ul {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+
+}
+
+.registration-form ul h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submit-button {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #e099a4;
+  border: 2px solid #e099a4;
+}
+
+.submit-button:hover {
+  background-color: white;
+  border: 2px solid #e099a4;
+  color: black;
+  font-style: bold;
+}
+
+footer p {
+  color: #ffff;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b392ac;
+}
