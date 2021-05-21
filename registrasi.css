@@ -116,7 +116,10 @@ a {
     align-items: center;
     display: inline-block;
     width: 100%;
-    
+}
+
+.first-image {
+  background-image: url("http://www.southeastern.edu/news_media/news_releases/2016/april/images/slu_bigevent.jpg");
 }
 
 .registration-form {
@@ -127,7 +130,11 @@ a {
 
 .registration-form input{
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 100px;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(211, 142, 185);
     
 }
 
